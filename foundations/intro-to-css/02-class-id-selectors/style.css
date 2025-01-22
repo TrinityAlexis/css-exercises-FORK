@@ -1,0 +1,9 @@
+.highlight {
+    background-color: hsl(360, 100%, 75%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#text {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
