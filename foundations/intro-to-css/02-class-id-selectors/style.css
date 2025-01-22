@@ -8,12 +8,23 @@
     font-size: 36px;
 }
 
+/* check comments below */
+/* if attempting to NOT repeat code, this would cover numbers 3 and 4 */
 .size {
     font-size: 24px;
 }
 
+/* this could be written differently as to NOT repeat code */
+/* 4 shares the same font size as 3 (24px) */
+/* MORE EFFICIENT - add the .size class to 4 */
 #bold {
     background-color: hsl(120,100%, 75%);
     font-size: 24px;
     font-weight: bold;
 }
+
+/* 4  SHOULD/would be written like this BELOW */
+/* #bold {
+    background-color: hsl(120,100%, 75%);
+    font-weight: bold;
+} */
